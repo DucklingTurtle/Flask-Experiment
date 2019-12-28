@@ -1,0 +1,9 @@
+to start virtual environment, do
+venv\Scripts\activate
+
+to turn off virtual env, do
+deactivate
+
+next, to run flask, do
+set FLASK_APP=__init__.py
+flask run
